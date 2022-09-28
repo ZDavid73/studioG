@@ -1,0 +1,82 @@
+body{
+    background-image: url(web/wal5\ listo.png);
+    background-size: cover;
+}
+.watch{
+    width: 410px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 9%;
+    margin-top: -12%;
+}
+.image{
+    width: 7%;
+}
+.title{
+    font-family:'Trebuchet MS';
+    color: white;
+    font-size: 200%;
+    margin-left: 40%;
+    margin-top: 60%;
+}
+.Genre{
+    font-family:'Trebuchet MS';
+    color: white;
+    font-size: 200%;
+    margin-left: 40%;
+    margin-top: 60%;
+}
+.Cast{
+    font-family:'Trebuchet MS';
+    color: white;
+    font-size: 100%;
+    margin-left: 40%;
+    margin-top: 60%;
+}
+.description{
+    font-family:'Trebuchet MS';
+    color: white;
+    font-size: 8    0%;
+    margin-left: 40%;
+    margin-top: 60%;
+}
+.boton1{
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+    margin-left: 70%;
+    margin-top: -30%;
+    margin-bottom: 11%;
+}
+.estrella2{
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: -30%;
+    margin-bottom: 11%;
+}
+.estrella21{
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-top: -30%;
+    margin-bottom: 11%;
+}
+.estrella22{
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-top: -30%;
+    margin-bottom: 11%;
+}
+.estrella23{
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: -30%;
+    margin-bottom: 11%;
+}

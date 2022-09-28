@@ -1,0 +1,65 @@
+body{
+    background-image: url(web/wal11\ listo.png);
+    background-size: cover;
+}
+
+.welcome{
+    font-family:'Trebuchet MS';
+    color: black;
+    font-size: large;
+}
+
+.form{
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 10%;
+    background-color: white;
+    width: 20%;
+    height: 285px;
+    border-radius: 15px;
+    box-shadow: 10 15px 30px 10 rgba(0,0,0,0.0);
+}
+
+#space{
+    font-family:'Trebuchet MS';
+    width: 85%;
+    text-align: center;
+}
+
+.login{
+    background-color: #F85C6A;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family:'Trebuchet MS';
+    color: white;
+    box-shadow: 0 1px 9px 0px;
+}
+
+.forgot{
+    color: #F85C6A;
+    font-size: small;
+    font-family: 'Trebuchet MS';
+}
+
+.account{
+    font-family:'Trebuchet MS';
+    color: white;
+}
+
+.create {
+    font-family:'Trebuchet MS';
+    color: #FFB5BB;
+    text-decoration: none;
+}
+
+.image{
+    width: 7%;
+}

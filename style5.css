@@ -1,0 +1,100 @@
+body{
+    background-image: url(web/wal6\ listo.png);
+    background-size: cover;
+}
+
+.image{
+    width: 7%;
+}
+
+.home{
+    font-family:'Trebuchet MS';
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logout{
+    font-family:'Trebuchet MS';
+    color: #F85C6A;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.myaccount{
+    font-family:'Trebuchet MS';
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.image2{
+    width: 8%;
+    margin-left: 46%;
+    margin-top: 2%;
+}
+
+.name{
+    font-family:'Trebuchet MS';
+    color: white;
+    margin-left: 47%;
+}
+
+.edit{
+    font-family:'Trebuchet MS';
+    color: #F85C6A;
+    margin-left: 5px;
+    font-size: small;
+    text-decoration: none;
+}
+
+.titles{
+    font-family:'Trebuchet MS';
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.watch{
+    width: 275px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 8%;
+}
+
+.watch2{
+    width: 275px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 14%;
+}
+
+.watch3{
+    width: 275px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 14%;
+}
+
+.plus{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -10px;
+}
+
+.button{
+    color: white;
+    border: white;
+    border-radius: 100px;
+    font-size: 30px;
+    width: 2.4%;
+    border: none;
+    text-decoration: none;
+}   

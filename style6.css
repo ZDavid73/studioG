@@ -1,0 +1,36 @@
+body{
+    background-image: url(web/wal6\ listo.png);
+    background-size: cover;
+}
+.image{
+    width: 7%;
+}
+
+.home{
+    font-family:'Trebuchet MS';
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.watchlater{
+    font-family:'Trebuchet MS';
+    color: white;
+    font-size: 180%;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+
+.watch{
+    width: 275px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+
+.watch2{
+    width: 275px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 14.4%;
+}
