@@ -15,7 +15,7 @@ body{
     margin-top: 10%;
     background-color: white;
     width: 20%;
-    height: 285px;
+    height: 305px;
     border-radius: 15px;
     box-shadow: 10 15px 30px 10 rgba(0,0,0,0.0);
 }
@@ -62,4 +62,8 @@ body{
 
 .image{
     width: 7%;
+}
+.iform{
+    height: 35px;
+
 }

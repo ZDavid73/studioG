@@ -1,0 +1,374 @@
+body{
+    margin:0px auto;
+    padding:0px;
+    font-family:'Trebuchet MS';
+}
+
+header{
+    float:left;
+    width:100%;
+    opacity: 0.9;
+   
+}
+
+nav {
+	margin:auto;
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    width:100%;
+}
+nav ul{
+    margin: 0;
+	padding: 0;
+    list-style:none;
+    height:80px;
+    position:relative;
+}
+nav ul li{
+    float:left;
+    display:inline;
+    padding: 20px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family:'Trebuchet MS';
+}
+nav ul li a:hover{
+    margin:0px;
+    color:#fff;
+    font-size: 1.5em;
+}
+nav img{
+    width:30px;
+    font-size:1.5em
+}
+
+#menu-header{
+    background-image: url("./web/image\ 21.png");
+    float:left;
+    width:9%;
+    background-repeat: no-repeat;
+    
+}
+#lista-header{
+    float:left;
+    width:45%;
+}
+#logo-header{
+    float:left;
+    display:flex;
+    justify-content: flex-end;
+    width:46%;
+}
+
+.content2{
+    background-color: #000;
+    height: 0px;
+}
+#imagen_cabecera{
+    margin:0px auto;
+    background-image: url("./web/wal5\ listo.png");
+    background-size: cover;
+    width:100%;
+	height: 1000px;
+    display: flex;
+    align-items:bottom;
+    text-align: end;
+
+}
+#texto_cabecera ul{
+    
+list-style: none;
+    height: 600px;
+    width: 500px;
+    font-family:'Trebuchet MS';
+    
+}
+
+.textogrande{
+    width: 300px;
+
+}
+.boton1,.boton2{
+
+    margin-top: 30px;
+    border-radius: 30px;
+    height: 60px;
+    opacity: 0.8;
+    font-size: 1.5em;
+    color: #fff;
+
+}
+
+.boton1{
+     background-color: rgb(201, 94, 94);
+    border-color:rgb(201, 94, 94); 
+}
+.boton2{
+    background-color:#333;
+    border-color:#333;
+}
+
+.input{
+    opacity: 0.8;
+    width: 300px;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #000;
+
+}
+
+.brow{
+
+    list-style: none;
+    margin-bottom: 70px;
+}
+.brow li{
+    float: left;
+    display: inline;
+
+}
+.grande{
+    font-size: 1.5em;
+    font-family:'Trebuchet MS';
+}
+.peque{
+    margin-left: 20px;
+    font-size: 1.0em;
+    font-family:'Trebuchet MS';
+    
+}
+
+.textogrande button{
+    width: 240px;
+}
+
+
+.titulo{
+    margin-top: 40;
+    display: flex;
+    text-align: left;
+    padding-top: 350px;
+}
+
+#main-header{
+    background: #333;
+	color: white;
+	height: 100%;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+}
+#main-footer {
+	background: #333;
+	color:#fff;
+	text-align: center;
+
+}
+#main-footer p {
+	margin: 0;
+}
+	
+#main-footer a {
+	color: white;
+}
+.content{
+    color:#fff;
+    margin:0px;
+    text-align:justify;
+}
+#contenido{
+    background-color: #000;
+    padding-left:20px;
+    
+}
+#contenido2{
+    background-color: #000;
+    padding-left:20px;
+    height: 1200px;
+    
+}
+.fila{
+    width:90%;
+    height:450px;
+    color: #fff;
+    padding:20px;
+}
+.scroll_horizontal {
+	width: 98.5%;
+    overflow-x:scroll;
+    overflow-y:hidden;
+	background-color: #000;
+    color:#fff;
+	padding: 8px;
+}
+
+.scroll_horizontal2{
+
+	background-color: #000;
+    color:#fff;
+	padding: 8px;
+}
+.ancho{
+width:2400px;
+height:450px;
+margin:0px auto;
+padding:0px auto;
+}
+.ancho2{
+    width:100%;
+    height:300px;
+    margin:0px auto;
+    padding:0px auto;
+    }
+
+.ancho3{
+    width:100%;
+    height:300px;
+    margin:0px auto;
+    padding:0px auto;
+    margin-top: 50px;
+    }
+.pelicula{
+    float:left;
+    display:inline;
+    margin-right: 10px;
+    
+
+}.pelicula1{
+    float:left;
+    display:inline;
+    margin-right: 10px;
+    
+
+}
+.espacio{
+    background-color: #000;
+    height:70px ;
+    margin-top: 30px;
+    color: #000;
+}
+
+
+.card{
+    width:300px;
+    height:400px;
+}
+.card{
+    border: 1px solid #000000;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+#card1{
+    background-image:url(/web/p5.jpg);
+    background-size: cover;
+}
+#card2{
+    background-image:url(/web/p2.jpg);
+    background-size: cover;
+
+}
+#card3 {
+    background-image:url(/web/p6.jpg);
+background-size: cover;
+}
+
+#card4{background-image:url(/web/p4.jpg);
+    background-size: cover;
+}
+
+
+#card5{background-image: url(/web/p8.jpg);
+    background-size: cover;}
+
+#card6{background-image: url(/web/p3.jpg);background-size: cover;}
+#card7{background-image: url(/web/p7.jpg);background-size: cover;}
+
+
+
+#card9{background-image: url(https://parchexbogota.com/wp-content/uploads/2021/08/g1.jpeg);
+    background-size: cover;
+}
+#card10{
+    background-image: url(https://www.romstation.fr/uploads/monthly_2019_01/Affiche.jpg.37576765688a6421d3f53e7e0d61949e.jpg);
+    background-size: cover;
+}
+#card11{background-image: url(https://4.bp.blogspot.com/-jupDV_Gkzys/VYV4R-PQB6I/AAAAAAAAFmE/G2R3mGv69kE/s1600/1988-tumba-cartel-japon-web.jpg);
+background-size: cover;
+}
+
+#card12{
+    background-image: url(https://4.bp.blogspot.com/-6PiYwPQMOh4/XCpU3B9BufI/AAAAAAAAIz4/QSrFPSRvjb4x1vBS1olw6tVutmRu3j57wCLcBGAs/s1600/mary-1-cartel-3%2Bespana.jpg);
+background-size: cover;
+}
+
+#card13{
+    background-image: url(https://es.web.img2.acsta.net/pictures/16/02/08/12/58/542941.jpg);
+    background-size: cover;
+}
+#card14{
+    background-image: url(https://i.pinimg.com/originals/3d/ab/b8/3dabb8ea87853ed1fe7c488c7e39ba0c.jpg);
+    background-size: cover;
+}
+#card15{
+    background-image: url(https://es.web.img2.acsta.net/pictures/19/01/30/12/41/1607388.jpg);
+    background-size: cover;
+}
+#card16{
+    background-image: url(https://pics.filmaffinity.com/La_casa_de_papel_Serie_de_TV-844739080-large.jpg);
+    background-size: cover;
+}
+#card17{
+    background-image: url(https://es.web.img2.acsta.net/pictures/19/01/30/12/41/1607388.jpg);
+    background-size: cover;
+}
+
+
+
+.estrellas{
+    color:#fff;
+    display: flex;
+    align-items:bottom;
+    text-align: end;
+}
+.estrellas img{
+    width:20px;
+}
+.derecha{
+    float:right;
+}
+.botones{
+    width:30px;
+}
+#texto_cabecera{
+    margin-top: 300px;
+   padding-left:20px;
+}
+
+.titulo{
+    float: left;
+    display: block;
+    
+}
+.play{
+    float: left;
+    display: inline;
+    width: 50%;
+    height: 60px
+}
+.textogrande{
+    float: left;
+    display: inline;
+}
+.tamano{
+    width: 150px;
+    height: 50px;
+    opacity: 0.7;
+    font-size: 1.5em;
+    margin-right: 10px;
+}

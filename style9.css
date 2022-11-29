@@ -1,0 +1,58 @@
+body{
+    margin:0px auto;
+    padding:0px;
+}
+
+header{
+    float:left;
+    width:100%;
+    opacity: 0.9;
+   
+}
+
+nav {
+	margin:auto;
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    width:100%;
+}
+nav ul{
+    margin: 0;
+	padding: 0;
+    list-style:none;
+    height:80px;
+    position:relative;
+}
+nav ul li{
+    float:left;
+    display:inline;
+    padding: 20px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family:'Trebuchet MS';
+}
+nav ul li a:hover{
+    margin:0px;
+    color:#fff;
+    font-size: 1.5em;
+}
+nav img{
+    width:30px;
+    font-size:1.5em
+}
+
+#menu-header{
+    float:left;
+    width:5%;
+}
+#lista-header{
+    float:left;
+    width:48%;
+}
+#logo-header{
+    float:left;
+    display:flex;
+    justify-content: flex-end;
+    width:46%;}

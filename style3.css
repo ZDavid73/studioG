@@ -9,7 +9,7 @@ body{
     margin-top: 10%;
     background-color: white;
     width: 20%;
-    height: 320px;
+    height: 350px;
     border-radius: 15px;
     box-shadow: 10 15px 30px 10 rgba(0,0,0,0.0);
 }
@@ -24,12 +24,14 @@ body{
     font-family:'Trebuchet MS';
     width: 40%;
     text-align: center;
+    height: 30px;
 }
 
 #place{
     font-family:'Trebuchet MS';
     width: 85%;
     text-align: center;
+    height: 30px;
 }
 
 .create{
