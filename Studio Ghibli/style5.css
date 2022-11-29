@@ -1,0 +1,114 @@
+body{
+    background-image: url(web/wal6\ listo.png);
+    background-size: cover;
+}
+
+.image{
+    width: 7%;
+}
+
+.home{
+    font-family:'Trebuchet MS';
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.cont{
+    margin-left: 40px;
+}
+.left{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.logout{
+    font-family:'Trebuchet MS';
+    color: #F85C6A;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.myaccount{
+    font-family:'Trebuchet MS';
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.image2{
+    width: 8%;
+    margin-left: 47%;
+    margin-top: 2%;
+
+}
+
+.image23{
+    width: 30px;
+
+}
+
+.name{
+    font-family:'Trebuchet MS';
+    color: white;
+    margin-left: 48%;
+    font-size: 1.3em;
+}
+
+.edit{
+    font-family:'Trebuchet MS';
+    color: #F85C6A;
+    margin-left: 5px;
+    font-size: small;
+    text-decoration: none;
+}
+
+.titles{
+    font-family:'Trebuchet MS';
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 80%;
+    padding-left: -10%;
+    padding-right: 10%;
+}
+#movies{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#watch1{
+    width: 275px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 8%;
+    background-image: url(web/p1.jpg);
+    background-size: cover;
+}
+
+#watch2{
+    width: 275px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 9%;
+    background-image: url(web/p2.jpg);
+    background-size: cover;
+
+}
+
+#watch3{
+    width: 275px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 9%;
+    background-image: url(web/p4.jpg);
+    background-size: cover;
+
+}
