@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://www.nicepng.com/png/full/95-958857_totoro-pillow-studio-ghibli-icon-png.png">
     <link rel="stylesheet"   href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
-   
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
   
     <title>Studio Ghibli</title>
 </head>
@@ -61,15 +61,14 @@
             <div id="contenido">
                 <div class="scroll_horizontal">
                     <h2>Famous movies</h2>
-                    <div class="ancho" id="ancho">
+                    <div class="contenedor" id="contenedor"></div>
+
+                    <div class="paginacion">
+                        <button id="btnAnterior">Anterior</button>
+                        <button id="btnSiguiente">Siguiente</button>
                     </div>
                 </div>
-                <div class="fila scroll_horizontal">
-                    <h2>Trending this week</h2>
-                    <div class="ancho" id="ancho2">
-                             
-                    </div>
-                </div>
+                
             </div>
                       
         </article>
@@ -79,5 +78,6 @@
 
     </footer>
     <script src="script.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>

@@ -1,4 +1,6 @@
 const reco = document.getElementById('reco');
+var header=('Content-Type: application/vnd.api+json');
+
 
 const MyNeighborTotoro = new Map([
     ["rating", 3]
@@ -28,12 +30,4 @@ for (let i=0;i<lista1.length;i++){
 reco.innerHTML += card 
 }
 
-async function getMovies(){
-    let url = "https://ghibliapi.herokuapp.com/films"
-    let response = await fetch(url)
-    let data = await response.json()
-    console.log(data)
-    
-}
 
-getMovies();
